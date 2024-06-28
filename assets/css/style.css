@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #000 !important;
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h4 {
+    font-size: 12px;
+}
+h2{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+a{
+    color:#fff;
+    margin-top:30px;
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+    font-weight: bold;
+}
+#pills-home-tab{
+    background: #202024 !important;
+    color: #cad845 !important;
+}
+
+.active{
+    border: 1px solid #cad845 !important;
+    background: #202024 !important;
+    color: #cad845 !important;
+}
+.nav-item:hover{
+   color:#fff !important;
+}
+.nav-item{
+    margin-right:20px;
+}
+.nav-link{
+    color: #fff ;
+}
+#block-dashboard{
+    color:#fff;
+    width: 450px;
+    background: #191919;
+    padding:20px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+.ola {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:20px !important;
+}
+
+.icon-logo{
+    color:#fff;
+    font-size:50px;
+    margin-bottom:30px;
+}
+#block {
+    width: 350px;
+    text-align: center;
+    background: #121214;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.btn-enviar {
+    background: #3167ff !important;
+    width: 100%;
+}
+.icon-check {
+    color: #cad845 !important;
+    font-size: 10px;
+    border: 1px solid #cad845;
+    padding: 5px;
+    border-radius: 50%;
+}
+.titulo {
+    color: #cad845 !important;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.card-price {
+    display: flex;
+    line-height: 1.2;
+    flex-direction: column;
+}
+.card-price b{
+    color: #cad845 !important; 
+ 
+}
+.card{
+    margin-bottom:10px;
+    background: #29292e !important;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size:12px;
+    border-bottom:3px solid #cad845; 
+}
+footer{
+    justify-content: space-around;
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    width: 90%;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #191919;
+}
+footer i {
+    cursor: pointer;
+}
+.insert-menu {
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+.icon-menu{
+    font-size: 17px;
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 150px;
+
+}
+
+@media (max-width: 700px) {
+    #block {
+        width: 90%;
+    }
+    #block-dashboard {
+        width: 100%;
+    }
+}
